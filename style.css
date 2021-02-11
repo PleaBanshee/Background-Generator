@@ -1,0 +1,45 @@
+body {
+	font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	background: linear-gradient(to right, red , yellow); /* Standard syntax */
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+}
+
+.generate-random {
+    height: 80px;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 100px;
+    border: 2px solid black;
+    font-family: 'Poller One', cursive;
+    font-weight: 700;
+    outline: none; /* remove border around buttton when clicking on it */
+}
+
+.change-border {
+    transform: scale(1.1);
+    border-color: #34e8eb;
+    box-shadow: 0 0 1rem 0.5rem #34e8eb;
+}
