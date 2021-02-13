@@ -86,6 +86,7 @@ color2.addEventListener("input", setGradient);
 btn.addEventListener("click", randomColours);
 btn.addEventListener("mouseover", hover);
 btn.addEventListener("mouseleave",leave);
+window.addEventListener('load',setGradient);
 },{"lodash":3}],3:[function(require,module,exports){
 (function (global){(function (){
 /**
