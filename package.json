@@ -4,7 +4,8 @@
   "description": "NPM INIT",
   "main": "ntc.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "browserify script.js ntc.js > bundle.js",
+    "run-server": "live-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/PleaBanshee/Background-Generator/issues"
   },
-  "homepage": "https://github.com/PleaBanshee/Background-Generator#readme"
+  "homepage": "https://github.com/PleaBanshee/Background-Generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
 }
